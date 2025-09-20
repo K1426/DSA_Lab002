@@ -20,5 +20,6 @@ int main()
     getline(cin, *s);
     reverse_string(s);
     cout << "The reverse of the string you entered is:\n" << *s;
+    delete s;
     return 0;
 }
