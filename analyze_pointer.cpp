@@ -18,5 +18,7 @@ int main()
     cout << "\nDetails of integer in heap:\n";
     analyze_pointer(heap_value);//pass the pointer of integer in heap to analyze pointer function
 
+    delete heap_value;//delete the value at this address
+
     return 0;
 }
